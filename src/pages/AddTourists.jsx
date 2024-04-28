@@ -35,7 +35,7 @@ const AddTourists = () => {
             .then(data => {
                 console.log(data)
                 if(data.insertedId){
-                    toast.success('Successfully Create Account');
+                    toast.success('Successfully added');
                 }
                
             })
