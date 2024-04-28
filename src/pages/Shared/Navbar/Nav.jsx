@@ -119,7 +119,7 @@ const Nav = () => {
                             checked={isChecked}
                             onChange={handleToggle}
                         />
-                        <span>{isLoaded ? (isChecked ? 'Light Theme' : 'Dark Theme') : 'Loading...'}</span>
+                        <span>{isLoaded ? (isChecked ? '' : '') : 'Loading...'}</span>
                     </div>
                 </div>
 
