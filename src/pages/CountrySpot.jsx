@@ -27,7 +27,6 @@
 //     console.log(spot)
 //     return (
 //         <div>
-
 // {
 //     spot.map(item => (
 //         <div key={item.country_Name} data-aos="zoom-in-up" className="bg-red-100 mx-auto rounded-lg mb-16 border-b-2 shadow-xl">

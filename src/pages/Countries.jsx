@@ -47,27 +47,6 @@ const Countries = () => {
 
 
 
-                    // <div key={c._id} className=" bg-red-100 mx-auto rounded-lg mb-16 border-b-2  shadow-xl">
-                    //     <div className="card">
-                    //         <figure><img className="w-1/2" src={c.image} alt="Shoes" /></figure>
-                    //         <div className="card-body text-center">
-                    //             <h2 className="font-poppins"></h2>
-                    //             {
-                    //                 c.description.length > 200 ? <p>{c.description.slice(0, 200)}</p>
-                    //                     :
-                    //                     <p>{c.description}</p>
-                    //             }
-
-
-                    //             <div className="">
-                    //                 <p>Country Name: {c.country_Name}</p>
-                    //             </div>
-                    //         </div>
-                    //         <div className=" text-center">
-                    //             <Link className="text-center" to={`/country/${c.country_Name}`}><button className="btn w-1/2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-white">View Details</button></Link>
-                    //         </div>
-                    //     </div>
-                    // </div>
                 ))
             }
 
