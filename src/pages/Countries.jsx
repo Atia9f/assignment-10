@@ -43,7 +43,6 @@ const Countries = () => {
 
                         </div>
                     </Link>
-
                 ))
             }
 
