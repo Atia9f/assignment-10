@@ -7,6 +7,7 @@ import 'animate.css';
 import { Typewriter } from 'react-simple-typewriter';
 
 
+
 AOS.init();
 
 const Guest = () => {
