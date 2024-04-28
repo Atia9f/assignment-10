@@ -1,6 +1,6 @@
-# Havenly Home
+# Wanderlust Adventures
 
-**Live Site URL:** [Havenly Home - Your Ultimate Home Decor Destination](https://assignment-9-e9a0e.web.app/)
+**Live Site URL:** [Wanderlust Adventures](https://assingnment-10-999cc.web.app/)
 
 ## Features and Characteristics:
 
@@ -23,6 +23,5 @@
 *
 ## Package I have use:
 
-1. **AOS**
-2. **Animate CSS**
-3. **React Hook Form**
+1. **react simple type writter**
+2. **react awesome reveal**
