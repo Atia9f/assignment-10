@@ -63,7 +63,6 @@ const BestOffer = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 
