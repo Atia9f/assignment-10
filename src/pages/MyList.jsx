@@ -91,9 +91,6 @@ const MyList = () => {
                 </table>
             </div>
         </div>
-
-
-
     );
 };
 
