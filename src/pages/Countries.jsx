@@ -20,7 +20,7 @@ const Countries = () => {
             {
                 country.map(c => (
                     <Link key={c._id} className="text-center" to={`/country/${c.country_Name}`}>
-                        <div  className="flex flex-col-reverse lg:flex-row  justify-center gap-10 items-center ">
+                        <div className="flex flex-col-reverse lg:flex-row  justify-center gap-10 items-center ">
                             <Fade>
                                 <div className="mt-2 lg:mt-20 text-center">
                                     <div className="w-full lg:w-[400px]">

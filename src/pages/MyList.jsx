@@ -54,7 +54,7 @@ const MyList = () => {
         <div>
 
             <div className="overflow-x-auto">
-                <table className="table table-xs">
+                <table className="table text-xl table-xs">
                     <thead>
                         <tr>
                             <th></th>
