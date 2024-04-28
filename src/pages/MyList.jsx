@@ -9,7 +9,7 @@ const MyList = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myList/${user?.email}`)
+        fetch(`https://tourism-server-three.vercel.app/myList/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data)
@@ -31,7 +31,7 @@ const MyList = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/place/${_id}`, {
+                fetch(`https://tourism-server-three.vercel.app/place/${_id}`, {
                     method: "DELETE"
                 })
                     .then(res => res.json())

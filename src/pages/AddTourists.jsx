@@ -26,7 +26,7 @@ const AddTourists = () => {
         const info = { image, name, country_Name, spot, location, description, average_cost, season, time, visitor, email, userEmail };
 
 
-        fetch("http://localhost:5000/addPlace", {
+        fetch("https://tourism-server-three.vercel.app/addPlace", {
             method: "POST",
             headers: { "Content-type": "application/json" },
             body: JSON.stringify(info)

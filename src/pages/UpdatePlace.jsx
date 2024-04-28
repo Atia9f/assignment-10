@@ -25,7 +25,7 @@ const UpdatePlace = () => {
         const visitor = form.get('visitor');
         const updatePlace = { image, country_Name, spot, location, description, average_cost, season, time, visitor };
 
-        fetch(`http://localhost:5000/place/${_id}`, {
+        fetch(`https://tourism-server-three.vercel.app/place/${_id}`, {
             method: "PUT",
             headers: { "Content-type": "application/json" },
             body: JSON.stringify(updatePlace)

@@ -8,7 +8,7 @@
 //     console.log(country_Name)
 //     const [spot, setSpot] = useState([]);
 //     useEffect(() => {
-//         fetch(`http://localhost:5000/findMatchingItems/${country_Name}`)
+//         fetch(`https://tourism-server-three.vercel.app/findMatchingItems/${country_Name}`)
 //             .then(res => {
 //                 if (!res.ok) {
 //                     throw new Error('Network response was not ok');

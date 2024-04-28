@@ -9,7 +9,7 @@ const News = () => {
     const [details, setDetails] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/place")
+        fetch("https://tourism-server-three.vercel.app/place")
             .then(res => res.json())
 
             .then(data => {

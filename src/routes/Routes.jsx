@@ -22,12 +22,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('http://localhost:5000/place'),
+        loader: () => fetch('https://tourism-server-three.vercel.app/place'),
       },
       {
         path: '/allSpot',
         element: <AllTouristSpot></AllTouristSpot>,
-        loader: () => fetch('http://localhost:5000/place')
+        loader: () => fetch('https://tourism-server-three.vercel.app/place')
 
       },
       {
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       // {
       //   path: '/country/:country_Name',
       //   element: <CountrySpot></CountrySpot>,
-      //   loader: ({ params }) => fetch(`http://localhost:5000/place/${params.country_Name}`)
+      //   loader: ({ params }) => fetch(`https://tourism-server-three.vercel.app/place/${params.country_Name}`)
       // },
 
       {
@@ -59,7 +59,7 @@ const router = createBrowserRouter([
       {
         path: '/updateCoffee/:id',
         element: <PrivateBooking><UpdatePlace></UpdatePlace></PrivateBooking>,
-        loader: ({ params }) => fetch(`http://localhost:5000/place/${params.id}`)
+        loader: ({ params }) => fetch(`https://tourism-server-three.vercel.app/place/${params.id}`)
       }
     ]
   },
